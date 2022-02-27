@@ -1,0 +1,51 @@
+User table
+
+Role table
+
+employee table
+
+Room table
+- room_id
+- room_name
+- room_capacity
+- room_description
+
+Facilities table
+- facility_id
+- facility_name
+- facility_description
+
+Work meeting table
+- wm_id
+- room_id
+- wm_name
+- wm_description
+- wm_datetime_in
+- wm_datetime_out
+- wm_number_of_participants
+- wm_agreement_status
+- wm_agreement_note
+- created_by
+- updated_by
+- deleted_by
+
+Work meeting facility table
+- wm_id
+- facility_id
+
+Work meeting participants table
+- wmp_id
+- wm_id
+- emp_id
+- wmp_absence_status
+- wmp_datetime_absence
+- wmp_absence_note
+- wmp_is_minutes
+
+Minutes of meetings table
+- mom_id
+- wm_id
+- wmp_id
+- mom_result_of_meeting
+- mom_note_status
+
